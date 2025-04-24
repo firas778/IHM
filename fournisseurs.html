@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fournisseurs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="form-container">
+    <h2>Gestion des Fournisseurs</h2>
+    <form>
+      <input type="text" placeholder="Nom du fournisseur" required />
+      <input type="text" placeholder="Contact" required />
+      <input type="email" placeholder="Email" required />
+      <input type="tel" placeholder="Téléphone" required />
+      <input type="text" placeholder="Adresse" required />
+      <button type="submit">Ajouter</button>
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Nom</th>
+          <th>Contact</th>
+          <th>Email</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Fournisseur 1</td>
+          <td>Fournisseur Jean</td>
+          <td>fournisseur1@example.com</td>
+          <td><button>Modifier</button> <button>Supprimer</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>

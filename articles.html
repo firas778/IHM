@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Articles</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="form-container">
+    <h2>Gestion des Articles</h2>
+    <form>
+      <input type="text" placeholder="Nom de l'article" required />
+      <input type="number" placeholder="Prix" required />
+      <input type="number" placeholder="Quantité en stock" required />
+      <button type="submit">Ajouter</button>
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Nom</th>
+          <th>Prix</th>
+          <th>Quantité</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Article 1</td>
+          <td>100</td>
+          <td>10</td>
+          <td><button>Modifier</button> <button>Supprimer</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>

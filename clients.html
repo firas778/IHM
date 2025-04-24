@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clients</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="form-container">
+    <h2>Gestion des Clients</h2>
+    <form>
+      <input type="text" placeholder="Nom" required />
+      <input type="text" placeholder="Prénom" required />
+      <input type="email" placeholder="Email" required />
+      <input type="tel" placeholder="Téléphone" required />
+      <input type="text" placeholder="Adresse" required />
+      <button type="submit">Ajouter</button>
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Nom</th>
+          <th>Prénom</th>
+          <th>Email</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Client 1</td>
+          <td>Jean</td>
+          <td>jean@example.com</td>
+          <td><button>Modifier</button> <button>Supprimer</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>
